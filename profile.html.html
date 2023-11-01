@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>sangeetha-Portfolio</title>
+
+        <style>
+
+            body {
+
+                font-family: Arial,  sans-serif;
+
+                margin: 0;
+
+                padding: 0;
+
+                background-color: #f0f0f0;
+
+            } 
+
+
+            header {
+
+                background-color: #333;
+
+                color: #fff;
+
+                text-align: center;
+
+                padding-right: 2rem 0;
+
+                position: relative; /* Add this */
+
+            }
+
+
+
+            .header-content h1 {
+
+                font-size: 1.5rem;
+
+            }
+
+
+
+            /* Add styles for the round Profile picture */
+
+            .Profile-picture {
+
+                width: 90px; /* Adjust the size as needed */
+
+                height:90px;
+
+                border-radius:  75%; /* Create a circular shape */
+
+                object-fit: cover; /* To ensure the image fills the Circular area */
+
+                position: absolute; /* Add this */
+
+                top: 05px; /* Adjust left position as needed */
+
+                left:150px; /*Adjust left position as needed */ 
+
+            }
+
+
+
+            nav {
+
+                background-color: #333;
+
+                color: #fff;
+
+                text-align: center;
+
+            }
+
+
+
+            nav ul {
+
+                list-style-type: none;
+
+                padding: 0;
+
+            }
+
+
+
+            nav ul li {
+
+                display: inline;
+
+                margin: 0 20px;
+
+            }
+
+
+
+            nav ul li a {
+
+                text-decoration: none;
+
+                color: #fff;
+
+            }
+
+
+
+            .section-content {
+
+                background-color: #fff;
+
+                padding: 2rem;
+
+                margin: 1rem;
+
+                border-radius: 20px;
+
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+            }
+
+
+
+            .download-button {
+
+                background-color: #333;
+
+                color: #fff;
+
+                padding: 0.5rem 1rem;
+
+                text-decoration: none;
+
+                border-radius: 20px;
+
+                display: inline-block;
+
+                margin-top: 10px;
+
+            }
+
+
+
+            .download-button:hover {
+
+                background-color: #555;
+
+            }
+
+
+
+            footer {
+
+                text-align: center;
+
+                padding: 1rem 0;
+
+                background-color: #333;
+
+                color: #fff;
+
+            }
+
+
+
+            ul {
+
+                list-style-type: disc;
+
+                padding-left: 20px;
+
+            }
+
+        </style>
+
+        </head>
+
+    <body>
+
+          <header>
+
+            <div class="header-content">
+
+                <!--Add your profile picture here-->
+                <img src="https://i.ibb.co/CbwG5pr/Sangeetha-2-1.jpg"</a><br /><a target='_blank' href='https://imgbb.com/'></a><br /></a>                <h1>R.sangeetha</h1>
+
+                <p>Student</p>
+            </div>
+
+          </header>
+
+
+
+          <nav>
+
+            <ul>
+
+          <li><a href="#profile">Profile</a></li>
+
+          <li><a href="#education">Education</a></li>
+
+          <li><a href="#languages">Languages</a></li>
+
+          <li><a href="#computer skils">Computer Skills</a></li>
+
+          <li><a href="#contact me">Contact Me</a></li>
+
+      </ul>
+
+  </nav>
+
+
+
+          <section id="profile">
+
+            <div class="section-content">
+
+                <h1>Profile</h1>
+
+                <p>Hello! I am sangeetha I am studying in III-B.SC.,Computer Science.</p>
+
+            </div>
+
+            </section>
+
+
+
+            <section id="education">
+
+                <div class="section-content">
+
+                <h1>Education</h1>
+
+                <ul>
+
+                <p>Dharmapuram Adhinam Arts College,</p>
+
+                <p>Dharmapuram,Mayiladuthurai.</p>
+
+                <p>2021-2024</p>
+
+            </ul>
+
+            </div>
+
+            </section>
+
+
+
+            <section id="languages">
+
+                <div class="section-content">
+
+                    <h1>Languages</h1>
+
+                    <ul>
+
+                    <li>Tamil</li>
+
+                    <li>English</li>
+
+                    </ul>
+
+                </div>
+
+            </section>
+
+
+
+            <section id="computer skills">
+
+                <div class="section-content">
+
+                    <h1>Computer Skills</h1>
+
+                    <ul>
+
+                        <li>SQL Query</li>
+
+                        <li>C,Cpp,Java</li>
+
+                        <li>Mobile Application  Development</li>
+
+                    </ul>
+
+                </div>
+
+            </section>
+
+
+
+            <section id="contact me">
+
+                <div class="section-content">
+
+                    <h1>Contact Me</h1>
+
+                    <ul>
+
+                    <p>Mobile 9344733907No:</p>
+
+                    <p>E-mail ID: ravisangeetha1803@gmail.com@gmail.com</p>
+
+                    <p>Address: 2/76 atrangarai street,
+melapanaiyur.</p>
+                    </ul>
+
+                </div>
+
+            </section> 
+
+
+
+            <section>
+
+                <center>
+
+                <div class="section-content">
+
+                    <a href="file:///C:/Users/RAVI/Documents/sangeetha%20portfolio2.html" class="download-button">Download CV</a>
+
+                    </div>
+
+                </center>
+
+            </section>
+
+
+
+            <footer>
+
+                <p>&copy; 2023 R.sangeetha</p>
+
+            </footer>
+
+
+
+            <script>
+
+                // Smooth scrolling to section when clicking on navigation links
+
+                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+                    anchor.addEventListener('click', function(e) {
+
+                        e.preventDefault();
+
+
+
+                        const targetId = this.getAttribute('href').substring(1);
+
+                        const targetElement = document.getElementById(targetId);
+
+
+
+                        if(targetElement) {
+
+                            window.scrollTo({
+
+                                top: targetElement.offsetTop,
+
+                                behaviour: "smooth"
+
+                            });
+
+                        }
+
+                    });
+
+                });
+
+     </script>
+
+     </body>
+
+     </html>
